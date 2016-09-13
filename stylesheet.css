@@ -1,0 +1,36 @@
+/* Add your CSS below */
+
+html{ background-color:#336699;
+}
+ +/* Example: adding a background color to the HTML body */
+body {
+    width: 761px;
+	margin: auto;
+    border-color: dimgray;
+    border-style: double;
+    border-width: 20px;
+    padding: 50px;
+   /* #ccc is shorthand HEX for a light grey */
+    background-color: #ccc;
+    font-family: fantasy;
+ }
+h1{text-align: center;
+    color: black;
+    font-weight: 200;
+    
+}
+
+h2{text-align: left;
+color: black
+}
+
+h3{text-align: left;
+color: darkgrey;
+}
+img{
+    border-color: skyblue;
+    border-style:double;
+    border-width: thick;
+    display: block;
+    margin: auto;
+}
