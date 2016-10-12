@@ -1,0 +1,39 @@
+
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+}
+.nav{
+    font-family: cursive;
+    font-size: 2em;
+    list-style: none; 
+    }
+
+h1{
+    color: navy;
+    font-family: serif;
+    font-size: 1em,
+    
+}
+p{
+    color: navy;
+    font-family: serif;
+    font-size: 1em;
+    
+}
+#specific{
+    color: black;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+#main{
+    color: rebeccapurple;
+    font-family: sans-serif;
+    font-size: 2em;   
+    
+    
+}
