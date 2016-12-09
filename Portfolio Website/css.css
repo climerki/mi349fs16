@@ -1,0 +1,263 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 180px;
+    width: 100%;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Perpetua Titling MT', 'Avenir', 'Georgia', 'Helvetica';
+    
+}
+#nav{
+    background-color: darkcyan;
+    font-family: 'Avenir', 'Georgia', 'Helvetica';
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+    }
+#nav li{
+    display: inline;
+    padding: 60px;
+    
+}
+
+#nav li a{
+    color: white;
+    text-decoration: none;
+}
+#nav li a:hover{
+    text-decoration: underline;
+}
+
+
+img{
+    display: inline-flex;
+    width: 300px;
+    float: left;
+    border-radius: 25px;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-right: 60px;
+    
+}
+#selfport{
+    border-radius: 50%;
+    margin-left: 120px;
+   
+}
+#logo{
+    border-radius: 25px;
+    width: 167px;
+    height: 150px;
+    margin-bottom: 120px;
+    margin-left: 10px;
+
+}
+    
+#page1, #page2, #page3, #page4{
+    height: 1000px;
+    width: 100%;
+
+}    
+
+#page1{
+    background-color: #9999CC;
+    font-family: 'Avenir', 'Georgia', 'Helvetica';
+    
+}
+#page2{
+    background-color: #CCCCCC;
+    
+}
+
+#page3 {
+    background-color: darkcyan;
+}
+
+
+#page4{
+    background-color: #9999CC; 
+}
+
+h1, h2, h3, h4{
+ font-family: 'Avenir', 'Georgia', 'Helvetica';   
+ text-align: center;  
+    
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+h2{ 
+    padding-top: 150px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+    padding-left: 540px;
+    font-size: 25px;
+}
+
+p{
+    align-content: flex-start;
+    font-size: 18px;
+    padding-left: 575px;
+    padding-right: 10px;
+    
+}
+h3{
+    
+   font-size: 25px; 
+   padding: 10px; 
+}
+h4{
+    padding-top: 80px;
+    padding-left: 200px;
+}
+h5{
+    font-family: 'Avenir', 'Georgia', 'Helvetica'; 
+    text-align: left;
+    font-size: 18px;
+    padding-left: 25px;
+   
+}
+h6{ font-family: 'Avenir Light', 'Georgia', 'Helvetica'; 
+    font-size: 20px;
+    margin-left: 200px;
+    margin-bottom: 5px;
+}
+
+ul{ 
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#school{
+    text-align: center;
+}
+
+textarea,input{
+    background-color: #CCCCCC;
+    font-family: 'Avenir Light', 'Georgia', 'Helvetica'; 
+    font-size: 20px;
+    padding-right: 15px;
+    margin-left: 200px;
+}
+ #menu {
+		display:none;
+	}
+	
+	
+
+
+  
+    
+/* Media Queries */
+@media (max-width: 800px) {
+    header{
+        font-size: 28px;
+        margin-top: 20px;
+        height: 50px;
+        padding-right: 10px;
+    }
+    #nav{
+        display: none;
+        
+        
+        
+    }
+     h1{ font-size: 25px; 
+        
+    }
+    h2{ 
+        font-size: 20px;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h3{
+        font-size: 22px;
+    }
+
+    h4{ 
+        font-size: 20px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    p{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    }
+    
+    li{
+        padding-right: 6px;
+    }
+    img{
+       width: 25%;
+       align-items: center;
+        margin-top: 25px;
+        margin-left: 120px;
+        }
+    #logo{
+       display: none;
+    }
+    
+    textarea,input,h6{
+        margin-left: 5px;
+        margin: 15px;
+        width: 250px;
+    }
+    h6{
+        margin-top: 40px;
+       
+    }
+  #menu {
+		display: block;
+        
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+        
+	} 
+    #menu li a{
+        color: lightgray;
+        text-decoration: none;
+        
+    }
+    #menu li a:hover{
+        text-decoration: underline;
+    }
+  
+}
+
+@media (min-width: 800px: max-width: 1200px){
+    
+    img{
+       width: 25%;
+       padding-left: 10px;
+        margin: 15px;
+        
+    }
+    
+}

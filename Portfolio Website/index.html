@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Portfolio Site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- External link (relative) to your main stylesheet -->
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="slicknav.scss" />
+
+        <!-- External link (relative) to your javascript file -->
+        <script src="index.js"></script> 
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+        <script src="jquery.slicknav.js"></script>
+        <script>
+	       $(function(){
+		      $('#menu').slicknav();
+	                           });
+                        </script>
+    </head>
+    <body>
+        <!-- Add your site content here -->     
+        <header> <img id=logo src="logo.png" alt=logo> Kirsten Climer</header>
+        <div id="nav">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul id="menu">
+                <li><a class="scroll" href="#about">About Me</a></li>
+                <li><a class="scroll" href="#resume">Resume</a></li>
+                <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+                <li><a class="scroll" href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    <div id="page1">
+        <a id="about" class="smooth"></a>
+            <h1>About Me</h1>
+            <img id="selfport" src="Self.JPG" alt= Kirsten>
+            <h2>Hello! I am Kirsten, a visual designer from Michigan.</h2>
+   <p> I am currently pursuing a degree in Media and Information with minors in graphic design and Spanish from Michigan State University. I am passionate about using my design skills to help companies enhance their user interface and improve their user experience!</p>
+       
+   <p>While in college, I have been given the opportunity to study abroad three times- Puerto Rico, Mexico, and Cuba! I have realized my passion for combining my design and language skills. Through my work, I am striving to be a part of something that will positively impact others.
+    </p>
+        <h4>Feel free to contact me, I'd love to help with your next project!</h4>
+    </div>
+ 
+<div id="page2">
+  <a id="resume" class="smooth"></a>
+    <h1>Resume</h1>
+    <h3>Previous Work Experience:</h3>
+        <h5>Winter 2016-Present</h5>
+            <ul><li>Bilingual Nanny for a local family</li></ul>
+        <h5>Fall 2015-Summer 2016</h5>
+            <ul><li>Student Intern and Communications Assistant</li></ul>
+            <ul><li>MSU Community Music School</li></ul>
+        <h5>Fall 2014-Summer 2015</h5>
+            <ul><li>Student Administrative Assistant</li></ul>
+            <ul><li>Institute for Cyber Enabled Research</li></ul>
+        <h5>Education:</h5>
+            <ul><li>BA Candidate Media and Information- Minors in Graphic Design and Spanish, Michigan State University</li></ul>
+        <h5>Honors:</h5>
+            <ul><li>Nominated into the Society for Collegiate Leadership and Achievement</li></ul>
+        <h5>Organizations:</h5>
+            <ul><li>Spanish Club</li></ul>
+            <ul><li>Associate Students for Career Orientation in Technology (ASCOT)</li></ul>
+</div>
+ 
+<div id="page3">
+  <a id="portfolio" class="smooth"></a>
+    <h1>Portfolio</h1>
+    <img src="building.jpg" alt="building">
+    <img src="russiandoll2.jpg" alt="doll">
+    <img src="self-portrait.jpg" alt="portrait">
+</div>
+        
+<div id="page4">
+  <a id="contact" class="smooth"></a>
+    <h1>Contact Me</h1>
+    <form action="emailform.php" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="thankyou" value="thankyou.html">
+    <h6>Your name:</h6><br>
+    <input name="name" type="text" value="" size="30"/><br>
+    <h6>Your email:</h6><br>
+    <input name="email" type="text" value="" size="30"/><br>
+    <h6>Your message:</h6><br>
+    <textarea name="message" rows="7" cols="30"></textarea><br>
+    <input type="submit" name="submit" value="Send Email"/>
+    </form>
+</div>
+       
+    
+    </body>
+</html>
